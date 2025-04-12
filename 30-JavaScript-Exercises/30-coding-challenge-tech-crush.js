@@ -18,7 +18,7 @@ function handleMathOperations() {
 
   // Calculate the sum, difference, product, and quotient
   const sum = num1 + num2;
-  const difference = num1 - num2;
+  const difference = Math.ceil(num1 - num2);
   const product = num1 * num2;
   const quotient = num2 !== 0 ? (num1 / num2).toFixed(2) : 'Undefined (division by zero)';
 
@@ -472,7 +472,6 @@ function isOnlyNumbers(str) {
 
 //21
 
-// Day 1 - Second Smallest Number
 function findSecondSmallest(arr) {
   if (arr.length < 2) return null;
 
