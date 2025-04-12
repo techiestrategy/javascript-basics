@@ -490,7 +490,7 @@ function findSecondSmallest(arr) {
   return second === Infinity ? null : second;
 }
 
-function day01() {
+function inputToFindSecondSmallestNum() {
   const input = document.getElementById("input").value;
   const output = document.getElementById("output");
 
