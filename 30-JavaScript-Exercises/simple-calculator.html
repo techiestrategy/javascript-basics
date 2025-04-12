@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple Calculator</title>
+  <style>
+    #calculator {
+      width: 250px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      font-family: Arial, sans-serif;
+      margin: 50px auto;
+    }
+
+    #calculator input {
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 5px;
+    }
+
+    #calculator button {
+      width: 50px;
+      height: 30px;
+      margin: 2px;
+    }
+
+    #result {
+      margin-top: 15px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="calculator">
+    <h3>Simple Calculator</h3>
+    <input type="number" id="num1" placeholder="First number"><br>
+    <input type="number" id="num2" placeholder="Second number"><br>
+
+    <button onclick="calculate('add')">+</button>
+    <button onclick="calculate('subtract')">−</button>
+    <button onclick="calculate('multiply')">×</button>
+    <button onclick="calculate('divide')">÷</button>
+
+    <p id="result"></p>
+  </div>
+
+  <script src="30-coding-challenge-tech-crush.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Simple Shopping Cart</title>
+</head>
+<body>
+  <h1>🛒 Shopping Cart</h1>
+
+  <div>
+    <label for="itemName">Item Name:</label>
+    <input type="text" id="itemName" placeholder="e.g. Apple" />
+  </div>
+
+  <div>
+    <label for="itemPrice">Item Price:</label>
+    <input type="number" id="itemPrice" placeholder="e.g. 1.99" step="0.01" />
+  </div>
+
+  <button onclick="addItem()">Add Item</button>
+  <button onclick="removeItem()">Remove Item</button>
+
+  <h2>Cart Items:</h2>
+  <ul id="cartList"></ul>
+
+  <h3>Total: $<span id="totalPrice">0.00</span></h3>
+
+  <script src="30-coding-challenge-tech-crush.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Number Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 2rem;
+            max-width: 500px;
+            margin: auto;
+        }
+
+        input, button {
+            padding: 0.5rem;
+            font-size: 1rem;
+            margin-right: 0.5rem;
+        }
+
+        #random-result {
+            margin-top: 1rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Random Number Generator</h1>
+    <p>Enter a minimum and maximum number to generate a random value between them (inclusive).</p>
+
+    <input type="number" id="min-value" placeholder="Min value" />
+    <input type="number" id="max-value" placeholder="Max value" />
+    <button onclick="runRandomNumberChallenge()">Generate</button>
+
+    <p id="random-result"></p>
+
+    <script src="30-coding-challenge-tech-crush.js"></script>
+</body>
+</html>

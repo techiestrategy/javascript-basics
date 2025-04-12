@@ -1,22 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Math Operations</title>
+  <meta charset="UTF-8" />
+  <title>Number Operations with User Input</title>
   <style>
     #results {
-      font-family: Arial, sans-serif;
-      background-color: #f0f0f0;
-      padding: 15px;
       margin-top: 20px;
-      border-radius: 5px;
-      width: fit-content;
+      padding: 15px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      background-color: #f9f9f9;
+      font-family: Arial, sans-serif;
+      max-width: 300px;
     }
   </style>
 </head>
 <body>
+  <h1>Number Operations</h1>
 
-  <h2>Math with JavaScript</h2>
-  <div id="results"></div>
+  <div>
+    <label for="input1">Number 1:</label>
+    <input type="number" id="input1" placeholder="Enter first number" />
+  </div>
+
+  <div>
+    <label for="input2">Number 2:</label>
+    <input type="number" id="input2" placeholder="Enter second number" />
+  </div>
+
+  <button onclick="handleMathOperations()">Calculate</button>
+
+  <div id="results">Results will appear here.</div>
 
   <script src="30-coding-challenge-tech-crush.js"></script>
 </body>
