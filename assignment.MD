@@ -8,9 +8,6 @@
 
 4. Create a program that calculates the area of a rectangle using variables for length and width.
 
-
-start here
-
 5. Write code that checks if a number is even or odd and displays the result.
 
 6. Create a program that determines if a year entered is a leap year.
